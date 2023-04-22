@@ -20,7 +20,7 @@ bool getHeight(TreeNode* node)
     if(abs(l_h - r_h) > 1) return false;
     return true;
 }
-bool isBalanced(TreeNode* root) {
+bool isBalanced(TreeNode* root) {//平衡二叉树
     return getHeight(root);
 }
 int main() {
